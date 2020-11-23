@@ -19,7 +19,7 @@ function App() {
       <div>
        
         <AnimalContext.Provider value = {animalState}>
-          <Route exact path="/" component={Search} />
+          <Route exact path="/" component={Tigers} />
           <Route exact path="/lions" component={Lions} />
           <Route exact path="/tigers" component={Tigers} />
         </AnimalContext.Provider>
